@@ -1,0 +1,157 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover"><title>담보계</title>
+<script>(function(){try{var ua=navigator.userAgent||'';if(!/KAKAOTALK/i.test(ua))return;location.href='kakaotalk://web/openExternal?url='+encodeURIComponent(location.href);setTimeout(function(){location.href=/android/i.test(ua)?'kakaotalk://inappbrowser/close':'kakaoweb://closeBrowser'},1500)}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--nv:#0e1b45;--nv2:#1b2f74;--gd:#c99a2e;--gd2:#f2cf6b;--tx:#1a2340;--mu:#6b7385;--bg:#f7f5ef}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;background:#e6e2d6}body{font-family:'Noto Sans KR','Noto Sans CJK KR',system-ui,sans-serif;color:var(--tx);overflow:hidden}
+button{font-family:inherit;cursor:pointer;color:inherit;transition:transform .12s}button:active{transform:scale(.96)}
+svg.st{fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+.app{max-width:520px;height:100%;margin:0 auto;display:flex;flex-direction:column;background:var(--bg);position:relative;overflow:hidden}
+header{flex:none;display:flex;align-items:center;gap:4px;height:56px;padding:0 6px 0 12px;padding-top:env(safe-area-inset-top);background:linear-gradient(100deg,#0b1638,#1b2f74);color:#fff;border-bottom:2px solid var(--gd);z-index:10}
+.lg{display:flex;align-items:center;gap:7px;border:0;background:none;color:#fff;margin-right:auto}
+.lg i{width:34px;height:34px;border-radius:10px;background:linear-gradient(160deg,#f6d77a,#c48a10);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:19px;font-weight:900;color:#0e1b45;box-shadow:inset 0 -2px 0 rgba(0,0,0,.15)}
+.lg b{font-size:23px;font-weight:900;letter-spacing:-.06em}.lg small{font-size:12px;color:#f2cf6b;font-weight:700;margin-left:2px}
+.hb{width:42px;height:42px;border:0;background:none;color:#fff;display:flex;align-items:center;justify-content:center;position:relative}.hb svg{width:25px;height:25px}
+.hb u{position:absolute;right:5px;top:5px;min-width:17px;height:17px;border-radius:9px;background:#ff2d3d;font-size:12px;font-weight:900;line-height:17px;text-decoration:none;padding:0 4px}
+main{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding-bottom:18px}
+/* hero */
+.hero{position:relative;background:linear-gradient(165deg,#0e1b45 0%,#1b2f74 60%,#2c3f8f 100%);color:#fff;padding:22px 16px 34px;overflow:hidden}
+.hero:before{content:'';position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(242,207,107,.35),rgba(242,207,107,0) 70%)}
+.hero .q{position:relative;display:inline-flex;gap:6px;font-size:clamp(17px,5.2vw,22px);font-weight:900;letter-spacing:-.05em}
+.hero .q span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:22px;padding:4px 12px}.hero .q span:last-child{color:#f2cf6b}
+.hero h1{position:relative;margin-top:12px;font-size:clamp(34px,10.5vw,46px);font-weight:900;line-height:1.12;letter-spacing:-.07em}
+.hero h1 em{font-style:normal;background:linear-gradient(180deg,#fff3c4,#f2cf6b 45%,#c99a2e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{position:relative;margin-top:10px;font-size:14px;color:#d6ddf2;line-height:1.55;word-break:keep-all;width:56%}
+.hero svg.ill{position:absolute;right:2px;bottom:22px;width:40%;max-width:190px;height:auto}
+.hv{position:absolute;right:6px;bottom:30px;width:44%;max-width:200px;aspect-ratio:1}
+.hv svg{position:relative;width:100%;height:100%;overflow:visible}
+.hvG{position:absolute;inset:8%;border-radius:50%;background:radial-gradient(circle,rgba(242,207,107,.45),rgba(242,207,107,0) 68%);animation:hvP 3s ease-in-out infinite}@keyframes hvP{50%{transform:scale(1.12);opacity:.6}}
+.hvO{transform-origin:100px 100px;animation:hvR 6s linear infinite}@keyframes hvR{to{transform:rotate(360deg)}}
+.hvK{transform-origin:100px 22px;animation:hvB 2s ease-in-out infinite}@keyframes hvB{50%{transform:scale(1.12)}}
+.hvC{position:absolute;font-size:12px;font-weight:900;letter-spacing:-.05em;white-space:nowrap;padding:4px 9px;border-radius:14px;box-shadow:0 4px 10px rgba(0,0,0,.25);animation:cU 3s ease-in-out infinite}
+.hvC.a{left:-12px;top:-2%;background:linear-gradient(160deg,#fff3c4,#f2cf6b);color:#0e1b45}
+.hvC.b{right:-8px;bottom:0;background:#fff;color:#13a35a;animation-delay:-1.5s}
+.hero .dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.09) 1px,transparent 1.4px);background-size:16px 16px;-webkit-mask-image:linear-gradient(200deg,#000,transparent 70%);mask-image:linear-gradient(200deg,#000,transparent 70%);pointer-events:none}
+.hero:after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,transparent,#f2cf6b,transparent)}
+.coin{animation:cU 3s ease-in-out infinite}.coin.c2{animation-delay:-1s}.coin.c3{animation-delay:-2s}@keyframes cU{50%{transform:translateY(-6px)}}
+.hero .sh{position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.12) 45%,transparent 60%);transform:translateX(-100%);animation:hs 4s ease-in-out infinite;pointer-events:none}@keyframes hs{45%,100%{transform:translateX(100%)}}
+.bt{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:-16px 12px 0;position:relative;z-index:2}
+.bt button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;border:0;border-radius:16px;padding:13px 12px;text-align:left;box-shadow:0 6px 16px rgba(14,27,69,.22)}
+.bt b{font-size:clamp(16px,4.8vw,19px);font-weight:900;letter-spacing:-.05em}.bt small{font-size:12.5px;line-height:1.35;letter-spacing:-.05em;word-break:keep-all}.bt i{font-style:normal;font-size:24px}
+.bt .a{background:linear-gradient(150deg,#f6d77a,#c99a2e);color:#0e1b45}.bt .a small{color:#4a3a10}
+.bt .b{background:#fff;color:var(--nv);border:1.5px solid #e3dcc6}.bt .b small{color:#4a5265}
+/* two value */
+.sec{margin:20px 14px 8px;display:flex;align-items:center;justify-content:space-between}.sec b{font-size:19px;font-weight:900;letter-spacing:-.05em}.sec b em{font-style:normal;color:var(--gd)}.sec small{font-size:13px;color:var(--mu);font-weight:700}
+.vv{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 12px}
+.vv div{background:#fff;border:1px solid #ece5d2;border-radius:16px;padding:13px 12px;box-shadow:0 2px 8px rgba(60,40,0,.05)}
+.vv em{display:inline-block;font-style:normal;font-size:12px;font-weight:900;border-radius:7px;padding:2px 8px}
+.vv h3{font-size:17px;font-weight:900;letter-spacing:-.05em;margin-top:6px;line-height:1.3}.vv p{font-size:12.5px;color:#4a5265;line-height:1.5;margin-top:4px;word-break:keep-all}
+.vv .k em{background:#fdf1d4;color:#9a6c18}.vv .m em{background:#e8eefb;color:#1b2f74}
+.vv strong{display:block;margin-top:8px;font-size:15px;font-weight:900}.vv .k strong{color:#c48a10}.vv .m strong{color:#13a35a}
+/* steps */
+.stp{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin:0 10px}
+.stp div{text-align:center;position:relative}.stp div+div:before{content:'›';position:absolute;left:-5px;top:16px;color:#c9bfa3;font-weight:900}
+.stp i{display:flex;align-items:center;justify-content:center;width:48px;height:48px;margin:0 auto;border-radius:50%;background:#fff;border:2px solid #ead9b0;font-style:normal;font-size:22px}
+.stp b{display:block;font-size:12.5px;font-weight:900;margin-top:5px;letter-spacing:-.06em}.stp small{display:block;font-size:12px;color:var(--mu);line-height:1.3;letter-spacing:-.07em;word-break:keep-all}
+/* example table */
+.ex{margin:0 12px;background:#fff;border:1px solid #ece5d2;border-radius:16px;overflow:hidden}
+.exH{display:flex;justify-content:space-between;align-items:center;background:var(--nv);color:#fff;padding:10px 12px}.exH b{font-size:15px;font-weight:900}.exH small{font-size:12px;color:#f2cf6b;font-weight:700}
+.ex table{width:100%;border-collapse:collapse;font-size:13px}.ex th{background:#f5f1e5;color:#5d5338;font-weight:800;padding:7px 2px}.ex td{text-align:center;padding:7px 2px;border-top:1px solid #f1ece0;font-variant-numeric:tabular-nums}
+.ex tr.kj td{background:#fff8e6;font-weight:900}.ex .m{color:#e0282e;font-weight:800}.ex .p{color:#13a35a;font-weight:800}
+.ex .more{display:block;width:100%;border:0;border-top:1px solid #f1ece0;background:#fafaf6;padding:9px;font-size:13.5px;font-weight:800;color:var(--nv2)}
+.exN{font-size:12.5px;color:#5d6577;line-height:1.5;padding:9px 12px;background:#fbf9f3;border-top:1px solid #f1ece0}
+/* rooms */
+.rm{display:flex;flex-direction:column;gap:9px;margin:0 12px}
+.rc{width:100%;text-align:left;background:#fff;border:1px solid #ece5d2;border-radius:16px;padding:12px;box-shadow:0 2px 8px rgba(60,40,0,.05)}
+.rc .t{display:flex;align-items:center;gap:6px}.rc .t em{font-style:normal;font-size:12px;font-weight:900;color:#fff;background:#e8204f;border-radius:7px;padding:2px 7px}.rc .t em.g{background:#13a35a}
+.rc .t b{flex:1;min-width:0;font-size:16px;font-weight:900;letter-spacing:-.05em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rc .t small{flex:none;font-size:12px;color:var(--mu);font-weight:700}
+.rc .i{display:flex;gap:10px;margin-top:6px;font-size:13px;color:#4a5265;font-weight:700;flex-wrap:wrap}.rc .i span b{color:var(--tx)}
+.seat{display:grid;grid-template-columns:repeat(10,1fr);gap:3px;margin-top:9px}
+.seat i{font-style:normal;height:24px;border-radius:6px;font-size:12px;font-weight:900;display:flex;align-items:center;justify-content:center}
+.seat .k{background:linear-gradient(160deg,#f6d77a,#c99a2e);color:#0e1b45}.seat .x{background:#1b2f74;color:#fff}.seat .o{background:#fff;border:1.5px dashed #c9bfa3;color:#9a8f72}
+.rc .f{display:flex;align-items:center;justify-content:space-between;margin-top:9px;font-size:12.5px;color:#4a5265;font-weight:700}
+.rc .f u{text-decoration:none;color:#13a35a;font-weight:900}.rc .f span.go{background:var(--nv);color:#fff;border-radius:9px;padding:5px 10px;font-weight:900}
+/* trust */
+.tr{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:0 12px}
+.tr div{background:#fff;border:1px solid #ece5d2;border-radius:14px;padding:10px 4px;text-align:center}.tr i{font-style:normal;font-size:24px}.tr b{display:block;font-size:13px;font-weight:900;margin-top:3px;letter-spacing:-.05em}.tr small{display:block;font-size:12px;color:var(--mu);line-height:1.3;letter-spacing:-.06em;word-break:keep-all}
+.cta{display:flex;align-items:center;justify-content:center;gap:8px;width:calc(100% - 24px);margin:16px 12px 0;border:2px solid var(--gd2);border-radius:40px;background:linear-gradient(180deg,#1b2f74,#0e1b45);color:#fff;font-size:18px;font-weight:900;padding:15px;box-shadow:0 6px 16px rgba(14,27,69,.3);position:relative;overflow:hidden}
+.cta:after{content:'';position:absolute;top:0;bottom:0;left:-40%;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);transform:skewX(-20deg);animation:cs 2.8s ease-in-out infinite}@keyframes cs{60%,100%{left:130%}}
+.foot{margin:18px 14px 0;font-size:12px;color:#8a8470;line-height:1.6;text-align:center}
+footer{flex:none;display:flex;background:#fff;border-top:1px solid #ece5d2;padding-bottom:env(safe-area-inset-bottom);z-index:10}
+.tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;border:0;background:none;padding:8px 0 7px;color:#5d6577;position:relative}.tab svg{width:24px;height:24px}.tab span{font-size:12px;font-weight:700;letter-spacing:-.05em;white-space:nowrap}
+.tab.act{color:var(--nv)}.tab.act span{font-weight:900}.tab.act:after{content:'';position:absolute;left:28%;right:28%;bottom:2px;height:3px;border-radius:2px;background:var(--gd)}
+.tab.mk svg{width:40px;height:40px;margin-top:-18px;padding:8px;border-radius:50%;background:linear-gradient(160deg,#f6d77a,#c99a2e);color:#0e1b45;box-shadow:0 4px 10px rgba(201,154,46,.45);stroke-width:2.6}
+#toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:rgba(14,27,69,.92);color:#fff;font-size:14px;font-weight:700;padding:10px 16px;border-radius:22px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:99;white-space:nowrap}
+</style></head><body><div class="app">
+<header><button class="lg" aria-label="담보계 홈"><i>계</i><b>담보계</b><small>by 담보코리아</small></button><button class="hb" aria-label="알림" onclick="soon('알림')"><svg viewBox="0 0 24 24" class="st"><path d="M6 16.5V11a6 6 0 0112 0v5.5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 004 0"/></svg><u>2</u></button><button class="hb" aria-label="메뉴" onclick="soon('메뉴')"><svg viewBox="0 0 24 24" class="st"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></svg></button></header>
+<main id="mn">
+<section class="hero"><i class="dots"></i><i class="sh"></i>
+<div class="q"><span>긴급자금,</span><span>안정적인 수익?</span></div>
+<h1><em>담보계</em>로<br>합시다!</h1>
+<p>담보를 건 계주가 1번으로 목돈을 먼저 쓰고, 계원은 순번대로 받으며 이자 수익을 나눠요.</p>
+<div class="hv" aria-hidden="true"><i class="hvG"></i>
+<svg viewBox="0 0 200 200">
+<defs><linearGradient id="hg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c4"/><stop offset=".45" stop-color="#f2cf6b"/><stop offset="1" stop-color="#b9861c"/></linearGradient>
+<radialGradient id="hg2" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#2c4196"/><stop offset="1" stop-color="#0b1638"/></radialGradient>
+<linearGradient id="hg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3c4"/><stop offset="1" stop-color="#c99a2e"/></linearGradient></defs>
+<circle cx="100" cy="100" r="78" fill="none" stroke="rgba(242,207,107,.28)" stroke-width="2"/>
+<g class="hvO"><circle cx="100" cy="100" r="78" fill="none" stroke="url(#hg3)" stroke-width="4" stroke-linecap="round" stroke-dasharray="70 420"/></g>
+<circle cx="100" cy="100" r="54" fill="url(#hg2)" stroke="url(#hg3)" stroke-width="3"/>
+<circle cx="100" cy="100" r="47" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+<text x="100" y="84" text-anchor="middle" font-size="16" font-weight="900" fill="#9fb2e6">순번계</text>
+<text x="100" y="108" text-anchor="middle" font-size="24" font-weight="900" fill="#fff" letter-spacing="-1">1,000만</text>
+<text x="100" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#f2cf6b">매달 지급</text>
+<g class="hvK"><circle cx="100.0" cy="22.0" r="17" fill="url(#hg1)" stroke="#fff3c4" stroke-width="2"/><text x="100.0" y="27.5" text-anchor="middle" font-size="16" font-weight="900" fill="#0e1b45">주</text></g><circle cx="145.8" cy="36.9" r="9" fill="#4d6bd6" stroke="#9fb2e6" stroke-width="2"/><circle cx="174.2" cy="75.9" r="9" fill="#4d6bd6" stroke="#9fb2e6" stroke-width="2"/><circle cx="174.2" cy="124.1" r="9" fill="#4d6bd6" stroke="#9fb2e6" stroke-width="2"/><circle cx="145.8" cy="163.1" r="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.45)" stroke-width="1.6" stroke-dasharray="3 2.5"/><circle cx="100.0" cy="178.0" r="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.45)" stroke-width="1.6" stroke-dasharray="3 2.5"/><circle cx="54.2" cy="163.1" r="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.45)" stroke-width="1.6" stroke-dasharray="3 2.5"/><circle cx="25.8" cy="124.1" r="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.45)" stroke-width="1.6" stroke-dasharray="3 2.5"/><circle cx="25.8" cy="75.9" r="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.45)" stroke-width="1.6" stroke-dasharray="3 2.5"/><circle cx="54.2" cy="36.9" r="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.45)" stroke-width="1.6" stroke-dasharray="3 2.5"/></svg>
+<span class="hvC a">⚡ 긴급자금</span><span class="hvC b">📈 +4.8%</span></div></section>
+<div class="bt"><button class="a" onclick="soon('계방 개설')"><i>🏠</i><b>계방 개설</b><small>담보 걸고 계주로<br>긴급자금 받기</small></button><button class="b" onclick="soon('계방 찾기')"><i>🔍</i><b>계방 찾기</b><small>계원으로 참여해<br>안정적인 수익</small></button></div>
+
+<div class="sec"><b>누구에게 <em>좋은가요?</em></b></div>
+<div class="vv"><div class="k"><em>계주 · 담보주</em><h3>돈이 급할 때<br>1번으로 먼저</h3><p>담보를 걸고 방을 열면 첫 달에 목돈을 바로 받아요.</p><strong>⚡ 첫 달 1,000만원</strong></div>
+<div class="m"><em>계원</em><h3>기다릴수록<br>이자 수익 UP</h3><p>뒤 번호일수록 덜 내고 같은 목돈을 받아요.</p><strong>📈 최대 +4.8%</strong></div></div>
+
+<div class="sec"><b>담보계는 <em>이렇게</em></b></div>
+<div class="stp"><div><i>🏠</i><b>방 개설</b><small>계주가 담보 걸고 개설</small></div><div><i>👥</i><b>계원 모집</b><small>신용인증 회원 9명</small></div><div><i>💸</i><b>매달 납입</b><small>순번대로 목돈 수령</small></div><div><i>🏆</i><b>완주</b><small>이자 수익 정산</small></div></div>
+
+<div class="sec"><b>10명 · <em>천만원계</em> 예시</b><small>10개월</small></div>
+<div class="ex"><div class="exH"><b>순번별 월 납입 · 손익</b><small>매달 1,000만원 지급</small></div>
+<table><tr><th>순번</th><th>월 납입</th><th>총 납입</th><th>손익</th></tr>
+<tr class="kj"><td>1번 계주</td><td>100만</td><td>1,000만</td><td>0</td></tr>
+<tr><td>2번</td><td>105만</td><td>1,050만</td><td class="m">-50만</td></tr>
+<tr><td>3번</td><td>104.5만</td><td>1,045만</td><td class="m">-45만</td></tr>
+<tr class="hid" hidden><td>4번</td><td>104만</td><td>1,040만</td><td class="m">-40만</td></tr>
+<tr class="hid" hidden><td>5번</td><td>103.7만</td><td>1,037만</td><td class="m">-37만</td></tr>
+<tr class="hid" hidden><td>6번</td><td>98만</td><td>980만</td><td class="p">+20만</td></tr>
+<tr class="hid" hidden><td>7번</td><td>97.3만</td><td>973만</td><td class="p">+27만</td></tr>
+<tr class="hid" hidden><td>8번</td><td>96.5만</td><td>965만</td><td class="p">+35만</td></tr>
+<tr class="hid" hidden><td>9번</td><td>95.8만</td><td>958만</td><td class="p">+42만</td></tr>
+<tr><td>10번</td><td>95.2만</td><td>952만</td><td class="p">+48만</td></tr></table>
+<button class="more" id="exM" onclick="exT()">▼ 4~9번 전체 보기</button>
+<p class="exN">🛡 중간 미납이 생기면 <b>계주 담보</b>로 메워요. 방을 열 때 계주 담보가 최대 위험액(945만원) 이상인지 확인해요.</p></div>
+
+<div class="sec"><b>지금 <em>모집 중</em>인 계방</b><small>더보기 ›</small></div>
+<div class="rm" id="rm"></div>
+
+<div class="sec"><b>믿고 <em>참여하세요</em></b></div>
+<div class="tr"><div><i>🪪</i><b>신용인증</b><small>올크레딧 인증 회원만</small></div><div><i>🏦</i><b>계주 담보</b><small>위험액 이상 담보 확보</small></div><div><i>📋</i><b>인허가</b><small>정식 인허가 서비스</small></div></div>
+
+<button class="cta" onclick="soon('계방 개설')">🏠 지금 계방 개설하기</button>
+<p class="foot">담보계 · 담보코리아 · (주)한강의기적<br>모든 계는 계약서와 약관에 따라 운영돼요.<br>예시 수익은 참고용이에요.</p>
+</main>
+<footer>
+<button class="tab act"><svg viewBox="0 0 24 24" class="st"><path d="M4 11l8-6.5 8 6.5"/><path d="M6 10v9.5h12V10"/><path d="M10 19.5v-5h4v5"/></svg><span>홈</span></button>
+<button class="tab" onclick="soon('계방 찾기')"><svg viewBox="0 0 24 24" class="st"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L20 20"/></svg><span>계방 찾기</span></button>
+<button class="tab mk" onclick="soon('계방 개설')"><svg viewBox="0 0 24 24" class="st"><path d="M12 5v14M5 12h14"/></svg><span>방 개설</span></button>
+<button class="tab" onclick="soon('내 계')"><svg viewBox="0 0 24 24" class="st"><rect x="4" y="5" width="16" height="15" rx="2.5"/><path d="M4 10h16M8.5 3.5v3M15.5 3.5v3"/></svg><span>내 계</span></button>
+<button class="tab" onclick="soon('MY')"><svg viewBox="0 0 24 24" class="st"><circle cx="12" cy="8.5" r="4"/><path d="M4.5 20c.8-4 3.8-6.3 7.5-6.3s6.7 2.3 7.5 6.3"/></svg><span>MY</span></button>
+</footer></div><div id="toast"></div>
+<script>
+function msg(x){var t=document.getElementById('toast');t.textContent=x;t.style.opacity='1';clearTimeout(t._h);t._h=setTimeout(function(){t.style.opacity='0'},1700)}
+function soon(n){msg(n+' 화면은 준비중이에요')}
+function exT(){var h=document.querySelectorAll('.ex tr.hid'),o=h[0].hidden;h.forEach(function(r){r.hidden=!o});document.getElementById('exM').textContent=o?'▲ 접기':'▼ 4~9번 전체 보기'}
+var R=[['강남 아파트 담보 천만원계','서울 강남구','1,000만',100,4,'D-5'],['수원 상가 담보 오백만원계','경기 수원시','500만',50,7,'D-2'],['부산 오피스텔 담보 이천만원계','부산 해운대구','2,000만',200,2,'D-9']];
+document.getElementById('rm').innerHTML=R.map(function(r){var s='';for(var k=1;k<=10;k++)s+='<i class="'+(k===1?'k':k<=r[4]?'x':'o')+'">'+(k===1?'주':k)+'</i>';
+ return '<button class="rc" onclick="soon(\'계방 상세\')"><span class="t"><em class="'+(r[4]>=7?'':'g')+'">'+(r[4]>=7?'마감임박':'모집중')+'</em><b>'+r[0]+'</b><small>'+r[5]+'</small></span><span class="i"><span>📍 '+r[1]+'</span><span>💰 목돈 <b>'+r[2]+'원</b></span><span>👥 <b>'+r[4]+'/10</b>명</span></span><span class="seat">'+s+'</span><span class="f"><span>남은 순번 <u>'+(r[4]+1)+'번~10번</u> · 월 '+(r[3]*0.952).toFixed(0)+'만~</span><span class="go">참여하기 ›</span></span></button>'}).join('');
+var exT0=0,U0=location.pathname+location.search;try{history.replaceState({g:1},'',U0);history.pushState({p:1},'',U0)}catch(e){}
+addEventListener('popstate',function(e){if(!e.state||e.state.g){if(Date.now()-exT0<2000){history.back();return}exT0=Date.now();try{history.pushState({p:1},'',U0)}catch(x){}msg('한 번 더 누르면 담보계가 종료돼요')}});
+</script></body></html>
